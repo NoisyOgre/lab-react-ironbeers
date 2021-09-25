@@ -23,10 +23,43 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.header {
+  background-color: #61dafb;
+  text-align: center;
+}
+.house {
+  height: 4%;
+  width: 4%;
+  margin: 5px 0px 5px 0px;
+}
 
 .App-link {
   color: #61dafb;
 }
+.ipsum {
+  color: grey;
+}
+.beer-img {
+  width: 45%;
+  height: 90%;
+}
+.beer-list {
+  display: flex;
+  justify-content: left;
+}
+.beer-text {
+  display: flex;
+  padding-left: 190px;
+  flex-direction: column;
+  justify-content: center;
+}
+.tagline {
+  color: grey;
+}
+.beer-detail-text {
+  text-align: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
